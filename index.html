@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎮 Tic Tac Toe Pro</h1>
+
+<div class="top-bar">
+  <div>X Wins: <span id="xWins">0</span></div>
+  <div>O Wins: <span id="oWins">0</span></div>
+  <button onclick="toggleTheme()">🌙 Toggle Mode</button>
+</div>
+
+<div class="mode-select">
+  <button onclick="setMode('multi')">👥 Multiplayer</button>
+  <button onclick="setMode('ai')">🤖 Single Player</button>
+</div>
+
+<h2 id="status"></h2>
+
+<div class="board" id="board"></div>
+
+<button class="restart" onclick="restartGame()">Restart</button>
+
+<!-- Confetti -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
