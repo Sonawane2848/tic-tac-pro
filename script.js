@@ -11,8 +11,8 @@ let oWins = 0;
 
 // Sounds
 const clickSound = new Audio("https://www.soundjay.com/buttons/sounds/button-16.mp3");
-const winSound = new Audio("https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3");
-const fireSound = new Audio("https://www.soundjay.com/explosion/sounds/explosion-01.mp3");
+const winSound = new Audio("https://www.zedge.net/notification-sounds/f218e179-a6b3-45eb-9975-20d84ff54a44");
+const fireSound = new Audio("https://www.zedge.net/notification-sounds/5d862c4c-1115-3708-b17f-0c9ea3241d8e");
 
 function setMode(selectedMode) {
   mode = selectedMode;
